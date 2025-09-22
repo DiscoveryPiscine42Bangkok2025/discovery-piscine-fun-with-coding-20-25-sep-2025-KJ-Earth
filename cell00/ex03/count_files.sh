@@ -1,9 +1,3 @@
-count=0
+find . -mindepth 1 -maxdepth 1 \( -type f -o -type d \) | wc -l
+EOF
 
-for item in *; do
-  if [ -f "$item" ] || [ -d "$item" ]; then
-    count=$((count + 1))
-  fi
-done
-
-echo "$count"
