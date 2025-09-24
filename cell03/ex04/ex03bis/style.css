@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;text-align:center;margin-top:30px;background:#f4f4f4}
+h1{color:#333;margin-bottom:20px}
+#ft_list{margin:20px auto;width:300px;border:1px solid #ccc;padding:10px;min-height:100px;background:#fff;border-radius:6px;box-shadow:0 2px 5px rgba(0,0,0,.1)}
+#ft_list div{background:#e0ffe0;margin:5px 0;padding:8px;border-radius:4px;cursor:pointer;transition:background .3s}
+#ft_list div:hover{background:#c6f7c6}
+button{padding:10px 20px;font-size:16px;cursor:pointer;border:none;border-radius:6px;background:#4CAF50;color:#fff;transition:.3s}
+button:hover{background:#45a049}
