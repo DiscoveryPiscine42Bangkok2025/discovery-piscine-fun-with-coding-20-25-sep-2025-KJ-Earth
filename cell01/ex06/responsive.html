@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Table</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      width: 100%;              
+      border-collapse: collapse;
+    }
+    td {
+      border: 2px solid green;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+      word-wrap: break-word;  
+    }
+    /* ทำให้ responsive */
+    @media (max-width: 600px) {
+      td {
+        font-size: 1em;       
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td style="background-color: antiquewhite;">Cell 1</td>
+      <td style="background-color: chartreuse;">Cell 2</td>
+    </tr>
+  </table>
+</body>
+</html>
